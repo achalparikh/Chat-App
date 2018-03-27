@@ -16,7 +16,7 @@
 						<a href="/index.html">Change Details</a>
 						<div class="room-title"><!--Title of the Room goes here--></div>
 						<div style="padding-bottom: 11px" id="overflowTest">
-							<ul class="messages list-group" style="height: 400px; overflow: auto">
+							<ul id="scroll" class="messages list-group" style="height: 400px; overflow: auto" onMouseOver="pauseDiv()" onMouseOut="resumeDiv()">
 								<!--Messages will go here!-->
 							</ul>
 						</div>
@@ -41,5 +41,6 @@
 		<script src="/js/moment-with-locales.min.js"></script>
 		<script src="/js/QueryParams.js"></script>
 		<script src="/js/app.js"></script>
+		<script src="/js/BottomScroll.js"></script>
 	</body>
 </html>
