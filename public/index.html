@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Chat App</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row h-100">
+				<div class="col-md-4 offset-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h1 class="card-title">Join a Chat</h1>
+							<form class="card-text" action="/chat.html">
+								<div class="form-group">
+									<label>Display Name</label>
+									<input type="text" class="form-control" name="name" placeholder="Name" />
+								</div>
+								<div class="form-group">
+									<label>Room</label>
+									<input type="text" class="form-control" name="room" placeholder="Room Name" />	
+								</div>
+								<input class="btn btn-success btn-block" type="submit" value="join chat"/>
+							</form>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
