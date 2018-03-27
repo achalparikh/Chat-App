@@ -23,8 +23,8 @@ socket.on('message', function(message) {
 	console.log("New message");
 	console.log(message.text);
 
-	$message.append('<p><strong>' + timestamp.local().format('h:mm a') + '</strong> ' + message.name + ': </p>')
-	$message.append('<p>' + message.text + '</p>')
+	$message.append('<p><strong>' + message.name + '</strong> <i class="float-right">' + timestamp.local().format('h:mm a') + '</i></p>');
+	$message.append('<p class="float-left">' + message.text + '</p>');
 	$messages.append($message);
 });
 
