@@ -7,6 +7,7 @@ Usage:
 To use the app visit: https://chat-app-achal.herokuapp.com/
 
 Requirements: Compatible Web Browser 
+
 --------------------------------------------------------------------
 Using the app on a local machine will require: 
 1) Node.JS installed
